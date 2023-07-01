@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+    line-height: 1.3;
+}
+.navbar{
+    background-color: #0b0bb7;
+}
+.navbar img{
+    width: 80px;
+}
+.input-1 input{
+    background-color: #fff;
+    border-radius: 50px;
+    
+}
+input[placeholder-shown]{
+    color: #000;
+}
+.navbar .badge{
+    position: relative;
+    padding: 4px;
+    bottom: 20px;
+    right: 55px;
+}
+/* ------main-section--------- */
+
+#main{
+    height: 93vh;
+    background: url("https://images.pexels.com/photos/390023/pexels-photo-390023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+#main .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#main .container img{
+    width: 10%;
+}
+#main button{
+    border-radius: 50px;
+    margin: 5px;
+}
+#main .btn-1{
+    background-color: #0b0bb7;
+}
+#main .btn-2{
+    border: 1px solid #fff;
+    
+}
+/* <!-- -------------5G-section-------------- --> */
+
+#g-section{
+    background-color: #d9008d;
+    height: 100%;
+    width: 100%;
+}
+#g-section .container button{
+    border-radius: 50px;
+}
+.dummy{
+    width: 1px;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.ftr-g .col-12 button{
+    background-color: #dbd4d4;
+    padding: 10px 50px;
+}
+.ftr-g .col-12 button:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+/* <!-- -----------carousal-section------------- --> */
+
+#carousal-sec{
+    width: 100%;
+    height: 100%;
+
+}
+#carousal-sec p{
+    font-weight: bold;
+}
+ .card-bt-text h5{
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+/* <!-- ----------------Introduction-secton-------------- --> */
+
+#intro-secion{
+    width: 100%;
+    height: 100%;
+    background-color: #092272;
+}
+
+.--color-primary-50{
+    color: #0F3CCA;
+}
+#intro-secion span{
+    color: var(--color-primary-50,#0F3CCA);
+    background-color: var(--color-primary-20,#e7ebf8);
+    size:var(--icon-size,1rem);
+    border-radius: 50%;
+    padding: 6px;
+    
+}
+.j-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--icon-size,100%);
+    height: var(--icon-size,100%);
+    color: var(--icon-color,currentcolor);
+}
+.data-mode-light, .reapply-root-vars, body {
+    --radius-small: 4px;
+    --radius-medium: 8px;
+    --radius-large: 16px;
+    --radius-xl: 24px;
+    --radius-xxl: 32px;
+    --radius-pill: 250px;
+}
+.data-mode-light, .reapply-root-vars,body {
+    --spacing-xxs: calc(var(--spacing-base) * 0.25);
+    --spacing-xs: calc(var(--spacing-base) * 0.5);
+    --spacing-s: calc(var(--spacing-base) * 0.75);
+    --spacing-base: 1rem;
+    --spacing-m: calc(var(--spacing-base) * 1.5);
+    --spacing-l: calc(var(--spacing-base) * 2);
+    --spacing-xl: calc(var(--spacing-base) * 2.5);
+    --spacing-xxl: calc(var(--spacing-base) * 3);
+    --spacing-huge: calc(var(--spacing-base) * 4);
+    --spacing-massive: calc(var(--spacing-base) * 5);
+}
+
+.card .card-body{
+    height: 300px;
+    width: 100%;   
+}
+/* <!-- ----------Explore-section----------- --> */
+
+#explore-sec{
+    width: 100%;
+    height: 100vh;
+}
+#explore-sec .explore-bg{
+    background-image: url(https://www.jio.com/revised-5g-d.png);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 50px;
+    align-items: center;
+}
+#explore-sec .explore-bg button{
+    background-color: #0F3CCA;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+}
+/* <!-- ----------Business-section------------- --> */
+
+#j-business{
+    height: 600px;
+}
+#j-business .row{
+    background-color:var(--color-primary-50,#0F3CCA);
+}
+#j-business .exp-col{
+    margin-top: auto;
+    margin-bottom: auto; 
+    text-align: center;
+}
+#j-business .exp-col button{
+    background-color: rgb(45, 43, 43);
+    border-radius: 18px;
+}
+/* -------Explained-section----------------- */
+
+#explained-sec{
+    width: 100%;
+    background-color: rgba(176, 224, 230, 0.063);
+}
+#explained-sec .card{
+    border-radius: 20px;
+    height: 400px;
+}
+#explained-sec .card img{
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+}
+#explained-sec .card a{
+    text-decoration: none;
+    color: #092272;
+    font-weight: bold;
+    
+}
+#explained-sec .card a:hover{
+    background-color: rgba(176, 224, 230, 0.45);
+    border: 1px solid black;
+}
+button{
+    background-color: red;
+}
+carousel-indicators{
+    background-color: red;
+    border: 3px solid red;
+}
+/* ----------FAQ--Section--------------------- */
+
+#faq-sec a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+}
+#faq-sec a li{
+    list-style: none;  
+}
+#faq-sec a li::after{
+    content: '+';
+    position: absolute;
+    right: 30px;
+    font-size: 36px;
+    font-weight: 100;
+}
+/* -------------footer-section----------------- */
+#footer-sec{
+    background-color: rgba(128, 128, 128, 0.049);
+}
+
+#footer-sec a{
+    text-decoration: none;
+    color: #000;
+    
+    position: relative;
+}
+#footer-sec a li{
+    list-style: none;  
+}
+#footer-sec a li::after{
+    content: '+';
+    position: absolute;
+    right: 30px;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#footer-sec .lg-list ul li{
+    list-style: none;
+    margin: 10px;
+}
+.social-sec img{
+    width: 40px;  
+    padding: 8px;
+    
+}
+/* <!-- -------_Ending-Section--------------- --> */
+
+#ending-sec img{
+    width: 60px;
+}
+#ending-sec p{
+    font-size: 12px;
+}
+#ending-sec ul li a{
+    color: #000;
+    font-size: 14px;
+}
+
+
+
+
+
+/* ----------------Media --query--------------- */
+
+
+@media only screen and (max-width:600px){
+    .navbar-toggler{
+        margin-right: auto;
+    }
+
+    .navbar .collapse{
+        height: 100vh;
+        background-color: #092272;
+        z-index: 1;
+    }
+    #explore-sec{
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    #ending-sec p{
+        color: red;
+    }
+    #ending-sec ul li a{
+        font-size: 10px;
+    }
+    #ending-sec img{
+        margin-right: auto;
+    }
+    #explained-sec{
+        margin-top: 0;
+    }
+    #j-business .exp-col{
+        height: 300px;
+        padding-top: 60px;
+    }
+    #intro-secion .card .card-body span{
+        border-radius: 50%;
+        padding: 10px;
+    }
+    #intro-secion .card .card-body{
+
+    }
+    .carousel-inner .card{
+        width: 100%;
+    }
+    #faq-sec a li{
+        font-size: 12px;
+    }
+    #faq-sec a li::after{
+        content: '+';
+        position: absolute;
+        right: 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    #footer-sec a li{
+        font-size: 13px;
+    }
+
+    
+}
